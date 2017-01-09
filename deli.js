@@ -13,7 +13,7 @@ function iterateArray(arr) {
 }
 function nowServing(deliLine) {
 
-    return  deliLine.length==0 ? "Currently serving " + deliLine.slice(0,1) + "."  : "There is nobody waiting to be served!" ;
+    return  deliLine.length > 0 ? "Currently serving " + deliLine.slice(0,1) + "."  : "There is nobody waiting to be served!" ;
 
 }
 function takeANumber(line, name) {
