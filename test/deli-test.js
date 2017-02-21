@@ -12,6 +12,7 @@ describe('deli', () => {
 
   describe('currentLine(line)', () => {
     it('returns "The line is currently empty." if no one is in line', () => {
+
       expect(currentLine([])).to.equal("The line is currently empty.");
     });
 
