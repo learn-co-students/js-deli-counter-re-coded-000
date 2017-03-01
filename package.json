@@ -4,10 +4,10 @@
   "description": "Practice with loops, arrays, and functions in JavaScript on Learn",
   "main": "deli.js",
   "directories": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json --timeout 10000"
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
